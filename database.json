@@ -1,0 +1,107 @@
+
+{
+  "CHAT": [
+    {
+      "name": "Humaira (Ayang) ❤️❤️❤️",
+      "number": "08948554105",
+      "info": "My Love",
+      "photo": "ayang.jpeg",
+      "lastMsg": "I Love You",
+      "date": "21.39",
+      "pin": true,
+      "msgCount": 10,
+      "read": true
+      
+    },
+    {
+      "name": "Ibu",
+      "number": "",
+      "info": "",
+      "photo": "default.png",
+      "lastMsg": "Pulang dah malam.",
+      "date": "20.45",
+      "pin": true,
+      "msgCount": 6,
+      "read": "none"
+    },
+    {
+      "name": "Aryo",
+      "number": "",
+      "info": "",
+      "photo": "aryo.jpg",
+      "lastMsg": "Mangkat kumpulan cepet",
+      "date": "19.00",
+      "pin": false,
+      "msgCount": 15,
+      "read": "none"
+    },
+    {
+      "name": "(Nama Fiktif!)",
+      "number": "",
+      "info": "",
+      "photo": "default.png",
+      "lastMsg": "Nama & chat hanyalah rekayasa",
+      "date": "18.59",
+      "pin": false,
+      "msgCount": 7,
+      "read": null
+    },
+    {
+      "name": "Agus Prayoga",
+      "number": "",
+      "info": "",
+      "photo": "default.png",
+      "lastMsg": "Tak tunggu cepet",
+      "date": "18.50",
+      "pin": false,
+      "msgCount": 0,
+      "read": false
+    },
+    {
+      "name": "Pak Agus",
+      "number": "",
+      "info": "",
+      "photo": "pak agus.jpg",
+      "lastMsg": "Baik, Pak.",
+      "date": "17.00",
+      "pin": false,
+      "msgCount": 0,
+      "read": true
+    },
+    {
+      "name": "Rifqi",
+      "number": "",
+      "info": "",
+      "photo": "default.png",
+      "lastMsg": "hmmm",
+      "date": "15.24",
+      "pin": false,
+      "msgCount": 10,
+      "read": null
+    },
+    {
+      "name": "Hitler",
+      "number": "",
+      "info": "",
+      "photo": "hitler.jpg",
+      "lastMsg": "Ready to attack US!",
+      "date": "kemarin",
+      "pin": false,
+      "msgCount": 3,
+      "read": null
+    },
+    {
+      "name": "Namaewa Udin",
+      "number": "",
+      "info": "",
+      "photo": "kimino.jpg",
+      "lastMsg": "あなたの名前は何ですか？",
+      "date": "kemarin",
+      "pin": false,
+      "msgCount": 0,
+      "read": null
+    }
+  ]
+}
+
+

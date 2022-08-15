@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>WA UI Clone</title>
+  
+  <!-- HTML -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="stylecss/conversation_style.css">
+  <link rel="stylesheet" href="stylecss/body_style.css">
+  <link rel="stylesheet" href="stylecss/header.css">
+</head>
+
+<body class="hide">
+  
+  <div class="header-top">
+    <div class="logo"><h1>WhatsApp</h1></div>
+    <div class="menu-item center">
+      <div class="search center"><img src="resource/search icon.svg" alt=""></div>
+      <div class="overflow center"><img src="resource/menu icon.svg" alt=""></div>
+    </div>
+  </div>
+  
+  <div class="header-buttom">
+    <div class="tab-camera tab center" onclick="underConstruction()"><img class="iconCam" src="resource/Camera Icon.svg" alt=""></div>
+    <div class="tab-layout tab center active" onclick="munculCHAT()"><span>CHAT</span></div>
+    <div class="tab-layout tab center" onclick="underConstruction()"><span>STATUS</span></div>
+    <div class="tab-layout tab center" onclick="underConstruction()"><span>PANGGILAN</span></div>
+  </div>
+  
+<!-- Menu -->
+<div class="widget-menu disappear">
+  <section><span>Grup baru</span></section>
+  <section><span>Siaran baru</span></section>
+  <section><span>Perangkat tertaut</span></section>
+  <section><span>Pesan berbintang</span></section>
+  <section><span>Setelan</span></section>
+  <section onclick="alert('Assalamualaikum. Alhamdulillah sudah selesai sejauh ini. Web ini dibangun saat liburan. Tapi karena males, makanya baru selesai sekarang. Saya mencoba mengandakan User Interface dari WhatsApp. Bukan untuk membuat WhatsApp. Karena keterbatasan saya, yang baru dibuat hanya segini, tapi akan dikembangkan lagi seiring kemampuan yang bertambah. Ini pun sudah bisa sedikit connect dengan API. Resourcenya belum dicompress, jadi web agak berat. Membuat ini bukan hal yang mudah wkwk. Terima kasih sudah berkunjung :\)')"><span><b>Terkait Web</b></span></section>
+</div>
+
+<div id="conversation-body"></div>
+
+<div class="status-body disappear">
+  <div>
+  <img src="/resource/sedang-dibangun.png" alt="sedang-dibangun.png">
+  <h1>Web sedang dalam pembuatan!</h1>
+  </div>
+</div>
+
+<!-- Akhir Tempat Percakapan-->
+<div class="kaki"><h6 class="copyright">2022 © Yusuf</h6></div>
+<!-- Footer -->
+<div class="tab-contact"><img src="resource/Contact List.svg" alt="">
+</div>
+
+  <!-- Project -->
+  <!-- JS Project Link-->
+  <script src="main.js"></script>
+
+  <script src="database.json"></script>
+</body>
+</html>
