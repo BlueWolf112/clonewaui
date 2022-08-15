@@ -43,7 +43,7 @@ $.getJSON("database.json", function (data) {
   $.each(meta, function(i, data){
     //filter untuk pin
     const a = data.pin;
-    let v = (a === true) ? "block" : "none";
+    const v = (a == true) ? "block" : "none";
     //filter untuk pesan
     const b = data.msgCount;
     if (b == 0) {
