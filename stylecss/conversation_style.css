@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+#conversation-body{
+  padding-top: 10px;
+  background: var(--bg-primary)
+}
+
+/* Conversation Container Style */
+
+/* Indukan */
+.contact_container{
+  display: flex;
+  width: 100%;
+  max-width: 360px;
+  height: 76px;
+  background: #111b21;
+  flex-direction: row;
+  align-items: center;
+}
+/* Bagian Profil Foto */
+  /* Wadah */
+.contact_selector{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 100%;
+  /*background: #25594A;*/
+}
+  /* Foto */
+.contact_photo img{
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: dimgray;
+  border-radius: 50%;
+  opacity: 200%;
+}
+/* Bagian Percakapan */
+.conversation_content{
+  display: flex;
+  width: 280px;
+  height: 47.5px;
+  /*background: blue;*/
+  flex-direction: column;
+}
+  /* Kelompok Chat */
+    /* Atas */
+.conversation_header{
+  display: flex;
+  /*position: relative;*/
+  width: 264px;
+  height: 23px;
+  /*background: pink;*/
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+      /* Atas Kiri */
+.contact_name_container{
+  display: block;
+  
+}
+.contact_name{
+  display: inline;
+}
+.name{
+  font-weight: 800;
+}
+      /* Atas Kanan */
+.conversation_date{
+  font-size: 12px;
+  /*color: #8696A0;*/
+}
+    /* Bawah */
+.conversation_footer{
+  display: flex;
+  position: relative;
+  width: 264px;
+  height: 22.5px;
+  /*background: red;*/
+  align-items: center;
+  justify-content: space-between;
+
+}
+.left-idc, .right-idc{
+  display: flex;
+  align-items: center;
+}
+.left-idc{
+  position: absolute;
+  left: 0;
+}
+.right-idc{
+  position: absolute;
+  right: 0;
+}
+.status_indicator{
+  display: inline;
+  padding-right: 2px;
+}
+.single_msg{
+  display: inline-block;
+  position: relative;
+  max-width: 200px;
+  
+  font-size: 14px;
+  color: #8696A0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.mute,.pin{
+  margin: 5px;
+}
+.pin{
+  
+}
+.msg_count{
+  position: relative;
+  /*top: 3px;*/
+  width: 21px;
+  height: 21px;
+  background: var(--active-color);
+  border-radius: 50%;
+  color: var(--bg-secondary);
+  font-size: 10.5px;
+  /*font-weight: 900;*/
+}
+.msg_count span{
+  position: absolute;
+  top: 55%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+  font-weight: 900;
+}
